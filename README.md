@@ -5,6 +5,22 @@ This application is served [here](https://sandwichshop.herokuapp.com/)
 This is a simple web application that calculates the price of a sandwich based on the toppings chosen by the user. The questions section of the assignment can be accessed [here](https://github.com/anjumfarah/sandwichshop/blob/master/Q%26A.md)
 The application was built using Laravel and developed in php. Please follow the instructions mentioned below if you want to replicate this application locally.
 
+## What does this application do?
+The webpage allows a user to
+- Enter their first name and last name.
+- Choose the toppings for their sandwich. 
+- Calculate the price of the sandwich after adding a 9% tax.
+
+Notes :
+- All calculations and validations are performed at the server. 
+- The user can choose a no meat option but cannot skip on the toppings.
+- The webpage throws an error if the user forgets to add toppings.
+- Keyboard shortcuts to access this application 
+    - Tab to toggle between input fields and checkboxes.
+    - Spacebar to mark a checkbox.
+    - Enter to calculate the price.
+- The request is made using "GET" method.
+
 ## System Requirements
 - <b>Composer</b> 
 : Composer is a tool that helps manage dependencies that are required for PHP
