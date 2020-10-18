@@ -46,7 +46,7 @@ class SandwichController extends Controller
 	       	$first_name = $inputs['first_name'];
 	       	$last_name = $inputs['last_name'];
 	       	$toppings=$inputs['toppings'];
-	       	if(!empty($meat)){
+	       	if(!empty($inputs['meat'])){
 	       		$meat= $inputs['meat'];
 	       		foreach ($meat as $amt ) {
 	       			$meat_sum = $meat_sum + $amt;
