@@ -11,7 +11,7 @@ The application was built using Laravel and developed in php. Please follow the 
 
 	- Instructions  to download composer can be found [here](https://getcomposer.org/doc/00-intro.md)
 - <b>Laravel</b> 
-: Laravel is a PHP framewrork that can be used develop web applications
+: Laravel is a PHP framework that can be used develop web applications
  	- Type this command using CMD on your desktop once composer is installed
 
 ```composer global require laravel/installer```
@@ -32,4 +32,6 @@ Before you start, ensure you have Composer and laravel setup on your local machi
 ### Serving your laravel project using Heroku app
 **Heroku app**
 	: Heroku is a cloud-based PaaS - Platform as a service . It helps deploy , build and manage web applications
-I used Heroku to serve my application. All the information required to host a laravel project using heroku can be accessed using [this](https://devcenter.heroku.com/articles/getting-started-with-laravel) 
+I used Heroku to serve my application. All the information required to host a laravel project using heroku can be accessed using [this](https://devcenter.heroku.com/articles/getting-started-with-laravel) .
+
+#Thank you
