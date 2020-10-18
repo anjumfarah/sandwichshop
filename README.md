@@ -1,33 +1,35 @@
-<p align="center">
-	#Sandwich Shop web application
-</p>
+# About Sandwich Shop
 
-## About Sandwich Shop
-
-This application can be accesed [here](https://sandwichshop.herokuapp.com/)
+This application can be accessed [here](https://sandwichshop.herokuapp.com/)
 
 This is a simple web application that calculates the price of a sandwich based on the toppings chosen by the user.
 The application was built using Laravel and developed in php. Please follow the instructions mentioned below if you want to replicate this application locally.
 
 ## System Requirements
-- <b>Composer</b> : Instructions  to download composer can be found [here](https://getcomposer.org/doc/00-intro.md)
-- <b>Laravel</b> : Instructions to download laravel can be found [here](https://laravel.com/docs/8.x/installation)
+- <b>Composer</b> 
+: Composer is a tool that helps manage dependencies that are required for PHP
+
+	- Instructions  to download composer can be found [here](https://getcomposer.org/doc/00-intro.md)
+- <b>Laravel</b> 
+: Laravel is a PHP framewrork that can be used develop web applications
+ 	- Type this command using CMD on your desktop once composer is installed
+
+```composer global require laravel/installer```
 
 ## How to build this application
 
 Before you start, ensure you have Composer and laravel setup on your local machine
 
-Start off by creating a new laravel project by typing the below command in your CMD 
- 
-### Cloning repository from GitHub and serving locally
-- Create new laravel project 
-``` laravel new \<\project-name\>\ ```
-- You can also clone this repository from [github](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-- cd into the project folder
-- You can serve the project locally by using the command 
+- Start off by creating a new laravel project by typing the below command in your CMD  
+``` laravel new <project-name> ```
+- You can also clone this project from the repository on [my github](https://github.com/anjumfarah/sandwichshop/tree/master)
+- More instructions on how to clone a remote repository to local can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+- cd into your project folder
+- You can serve the project locally by typing this command on your CMD 
 ``` php artisan serve```
-- copy paste the link that pops up in the browser
+- Copy and paste the link(usually - http://127.0.0.1:8000 ) in the browser
 
 ### Serving your laravel project using Heroku app
-- 
-
+**Heroku app**
+	: Heroku is a cloud-based PaaS - Platform as a service . It helps deploy , build and manage web applications
+I used Heroku to serve my application. All the information required to host a laravel project using heroku can be accessed using [this](https://devcenter.heroku.com/articles/getting-started-with-laravel) 
