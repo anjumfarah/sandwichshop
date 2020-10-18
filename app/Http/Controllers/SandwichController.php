@@ -29,14 +29,14 @@ class SandwichController extends Controller
             ];
         $messages = [
         	'required' => 'Please enter your first and last name',
-            'toppings.*' => 'Oops! Looks like your sandwich is missing a topping :( Go ahead and choose atleast one'
+            'toppings.*' => 'Oops! Looks like your sandwich is missing a topping :( Please place your order again with atleast one topping'
             ];
 
         $validator = Validator::make($inputs,$rules,$messages);
         
         //return view with the error if validation fails   
        	if($validator->fails()) {
-            return view('home',['attributes' => []])->withErrors($validator);
+            return redirect()->back()->withErrors($validator);
         }
        else{
 	       	$tax = 0.09;
