@@ -1,8 +1,8 @@
 # About Sandwich Shop
 
-This application can be accessed [here](https://sandwichshop.herokuapp.com/)
+This application is served [here](https://sandwichshop.herokuapp.com/)
 
-This is a simple web application that calculates the price of a sandwich based on the toppings chosen by the user.
+This is a simple web application that calculates the price of a sandwich based on the toppings chosen by the user. The questions section of the assignment can be accessed [here](https://github.com/anjumfarah/sandwichshop/blob/master/Q%26A.md)
 The application was built using Laravel and developed in php. Please follow the instructions mentioned below if you want to replicate this application locally.
 
 ## System Requirements
