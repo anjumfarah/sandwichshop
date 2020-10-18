@@ -31,7 +31,7 @@ Before you start, ensure you have Composer and laravel setup on your local machi
 
 ### Serving your laravel project using Heroku app
 **Heroku app**
-	: Heroku is a cloud-based PaaS - Platform as a service . It helps deploy , build and manage web applications
-I used Heroku to serve my application. All the information required to host a laravel project using heroku can be accessed using [this](https://devcenter.heroku.com/articles/getting-started-with-laravel) .
+	: Heroku is a cloud-based PaaS - Platform as a service . It helps deploy , build and manage web applications.
+I used Heroku to serve my application because of its ease of access to host PHP applications. All the information required to host a laravel project using heroku can be accessed using [this](https://devcenter.heroku.com/articles/getting-started-with-laravel) .
 
 # Thank you
